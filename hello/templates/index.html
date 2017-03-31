@@ -11,7 +11,9 @@
     <h1>Hi, You have successfully setup your heroku app for postresql population</h1>
 
   {% for item in printd %}
-    {{ item }}
+    {{ item.naics_code }}
+     {{ item.url }}
+     {{ item.agency }}
 
     {% endfor %}
 
