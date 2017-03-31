@@ -20,7 +20,7 @@ class Tables(models.Model):
     contract_specialist=models.CharField(max_length=1001,blank=True,null=True)
     contract_officer=models.CharField(max_length=1001,blank=True,null=True)
     set_aside=models.CharField(max_length=1001,blank=True,null=True)
-    naics_code=models.CharField(max_length=1001,blank=True,null=True)
+    naics_code=models.IntegerField(max_length=1001,blank=True,null=True)
     contact_info=models.CharField(max_length=1001,blank=True,null=True)
     place_of_performance=models.CharField(max_length=1001,blank=True,null=True)
     description=models.CharField(max_length=1001,blank=True,null=True)
